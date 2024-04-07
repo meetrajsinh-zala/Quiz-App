@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz | Create Quiz</title>
+    <link rel="stylesheet" href="Quiz Question.css">
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+        <h1>Quiz Name</h1>
+        <form class="quizQuestionForm" id="quizQuestion" onsubmit="StoreQuizQuestions()" action="#">
+            <label for="">Question</label>
+            <input type="text" id="Question">
+            <label for="">Option 1</label>
+            <input type="text" id="opt1">
+            <label for="">Option 2</label>
+            <input type="text" id="opt2">
+            <label for="">Option 3</label>
+            <input type="text" id="opt3">
+            <label for="">Option 4</label>
+            <input type="text" id="opt4">
+            <label for="">Correct Answer (Choose Between 1 To 4)</label>
+            <input type="text" id="answer">
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </div>
+    </div>
+</body>
+<script src="Create Quiz.js"></script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzz | Create Quiz</title>
+    <link rel="stylesheet" href="Quiz Data.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+        <h1>Create Quiz</h1>
+        <form class="QuizForm" id="quizData" onsubmit="getFormData()" action="#">
+            <label for="">Name of quiz</label>
+            <input type="text" name="quizName" id="quizName">
+
+            <label for="">No of questions</label>
+            <input type="number" name="noOfQuestions" id="noOfQuestions">
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+    </div>
+</body>
+<script src="Create Quiz.js"></script>
+</html>
